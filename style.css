@@ -2,7 +2,6 @@
 
 /* General, overall styling */
 body {
-	background: #F9F9F9;
 	font-size: 0.9em;
 	font-family: 'Lato', sans-serif;
 	margin-bottom: 100px;
@@ -130,6 +129,7 @@ header h2 {
 .work_date {
 	width: 30%;
 	float: right;
+	text-align: right;
 }
 
 .work_position,
