@@ -24,7 +24,7 @@
 
 	<div id="content" class="container">
 	<section id="basics">
-		<h2>Personal</h2>
+		<h2> Personal </h2>
 		<div class="contact">
 		<h3>Contact</h3>
 		{{#if website}}
@@ -90,29 +90,27 @@
 			</h3>
 			{{/if}}
 			
-			<div>
-				{{#if position}}
-				<div class="work_position">
-					{{position}}
-				</div>
-				{{/if}}
+			{{#if position}}
+			<div class="work_position">
+				{{position}}
+			</div>
+			{{/if}}
 
-				<div class="work_date">
-					{{#if startDate}}
-					<span class="startDate">
-						{{startDate}}
-					</span>
-					{{/if}}
-					{{#if endDate}}
-					<span class="endDate">
-						- {{endDate}}
-					</span>
-					{{else}}
-					<span class="endDate">
-						- Present
-					</span>
-					{{/if}}
-				</div>
+			<div class="work_date">
+				{{#if startDate}}
+				<span class="startDate">
+					{{startDate}}
+				</span>
+				{{/if}}
+				{{#if endDate}}
+				<span class="endDate">
+					- {{endDate}}
+				</span>
+				{{else}}
+				<span class="endDate">
+					- Present
+				</span>
+				{{/if}}
 			</div>
 
 			{{#if website}}
@@ -201,29 +199,27 @@
 		{{#each resume.education}}
 		<div class="item">
 			
-			<div>
-				{{#if institution}}
-				<div class="institution">
-					{{institution}}
-				</div>
-				{{/if}}
+			{{#if institution}}
+			<div class="institution">
+				{{institution}}
+			</div>
+			{{/if}}
 
-				<div class="study_date">
-					{{#if startDate}}
-					<span class="startDate">
-						{{startDate}}
-					</span>
-					{{/if}}
-					{{#if endDate}}
-					<span class="endDate">
-						- {{endDate}}
-					</span>
-					{{else}}
-					<span class="endDate">
-						- Present
-					</span>
-					{{/if}}
-				</div>
+			<div class="study_date">
+				{{#if startDate}}
+				<span class="startDate">
+					{{startDate}}
+				</span>
+				{{/if}}
+				{{#if endDate}}
+				<span class="endDate">
+					- {{endDate}}
+				</span>
+				{{else}}
+				<span class="endDate">
+					- Present
+				</span>
+				{{/if}}
 			</div>
 
 			{{#if qualification}}

@@ -2,7 +2,8 @@
 
 /* General, overall styling */
 body {
-	font-size: 1.3em;
+	background: #F9F9F9;
+	font-size: 0.9em;
 	font-family: 'Lato', sans-serif;
 	margin-bottom: 100px;
 }
@@ -124,17 +125,20 @@ header h2 {
 /* End 'Basics' Styling */
 
 /* Work and volunteering experience styling */
-.work_date,
-.study_date {
+
+.study_date,
+.work_date {
+	width: 30%;
 	float: right;
 }
 
 .work_position,
-.institution,
 .work_website,
+.institution,
 .qualification {
 	margin-bottom: 10px;
-	float: left;
+	width: 70%;
+    float: left;
 }
 
 .courses {
@@ -183,7 +187,7 @@ header h2 {
 #interests .item,
 #skills .item {
 	float: left;
-	width: 25%;
+	width: 50%;
 }
 
 #references,
